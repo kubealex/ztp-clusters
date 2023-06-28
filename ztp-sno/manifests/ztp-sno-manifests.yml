@@ -88,7 +88,7 @@ spec:
               type: ethernet
     interfaces:
         - name: enp1s0
-          macAddress: 52:54:00:ff:2e:fe
+          macAddress: 52:54:00:7f:59:99
 
 ---
 apiVersion: agent-install.openshift.io/v1beta1
@@ -131,10 +131,10 @@ metadata:
 spec:
     automatedCleaningMode: disabled
     bmc:
-        address: redfish-virtualmedia+https://95.216.68.250:8000/redfish/v1/Systems/855ed12b-fc8a-41be-bc8d-48838bd70faa
+        address: redfish-virtualmedia+https://95.216.68.250:8000/redfish/v1/Systems/1ded1b0f-f87b-46e6-87ac-faf7f71b68a9
         credentialsName: ztp-sno-bmc-credentials
         disableCertificateVerification: true
-    bootMACAddress: 52:54:00:ff:2e:fe
+    bootMACAddress: 52:54:00:7f:59:99
     bootMode: UEFI
     online: true
 

@@ -32,15 +32,15 @@ spec:
     nodes:
       - hostName: "ztp-sno"
         role: "master"
-        bmcAddress: "redfish-virtualmedia+https://95.216.68.250:8000/redfish/v1/Systems/855ed12b-fc8a-41be-bc8d-48838bd70faa"
+        bmcAddress: "redfish-virtualmedia+https://95.216.68.250:8000/redfish/v1/Systems/1ded1b0f-f87b-46e6-87ac-faf7f71b68a9"
         bmcCredentialsName:
           name: "ztp-sno-bmc-credentials"
-        bootMACAddress: 52:54:00:ff:2e:fe
+        bootMACAddress: 52:54:00:7f:59:99
         bootMode: "UEFI"
         nodeNetwork:
           interfaces:
             - name: enp1s0
-              macAddress: 52:54:00:ff:2e:fe
+              macAddress: 52:54:00:7f:59:99
           config:
             interfaces:
               - name: enp1s0
